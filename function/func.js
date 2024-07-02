@@ -11,6 +11,17 @@ function func(a,b){
 
 const results = func(2,5);
 
-console.log("results",results);
+// console.log("results",results);
+
+
+function logginMessage(massges){
+
+    return `${massges},just loggin`
+} 
+
+const massageto = logginMessage("mohsin")
+
+console.log(massageto)
+
 
 
