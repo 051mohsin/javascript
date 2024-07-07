@@ -32,9 +32,34 @@ const fun_ = function fun1(a, b) {
     return fun2()
 
 }
-const fun3 = fun_(2,5)
+const fun3 = fun_(2, 5)
 
-console.log(fun3)
+// console.log(fun3)
 
+
+function calulateCartPrices(...nam){
+
+    return nam
+
+}
+// console.log(calulateCartPrices(200,399,400));
+
+const user ={
+    username:"mohsin",
+    price :499
+}
+
+
+
+
+function objects(getUser){
+
+    // return getUser
+    console.log(`get username ${getUser.username} and get price ${getUser.price}`)
+
+}
+
+console.log(objects(user));
+// objects(user)
 
 
